@@ -1,7 +1,7 @@
-.div-container {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .f-left {
@@ -14,4 +14,17 @@
 
 .clear {
   clear: both;
+}
+
+.main-container {
+  width: 1280px;
+  margin: auto;
+}
+
+.container {
+  margin-right: 16px;
+}
+
+.food-header-blue {
+  color: rgb(93, 93, 255);
 }
