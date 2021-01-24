@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .f-left {
   float: left;
 }
@@ -16,15 +20,45 @@
   clear: both;
 }
 
-.main-container {
+#main-section {
+  padding-top: 72px;
   width: 1280px;
   margin: auto;
 }
 
-.container {
-  margin-right: 16px;
+.blog {
+  color: #5863f8;
+}
+
+.blog-header {
+  font-size: 42px;
+}
+
+.main-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 16px;
 }
 
 .food-header-blue {
-  color: rgb(93, 93, 255);
+  margin-top: 23px;
+  color: #5863f8;
+  text-transform: uppercase;
+}
+
+.food-header::after {
+  content: 'Fresh food directly from our restaurant ready coocked for you and you familly';
+  display: block;
+  font-size: 14px;
+  color: #b1b1b1;
+  width: 260px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.container {
+  width: 33.33%;
 }
